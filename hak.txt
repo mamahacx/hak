@@ -14,7 +14,7 @@ getgenv().CokkaRan=true
 
 
 spawn(function()
-	loadstring(game:HttpGet("https://you.whimper.xyz/cute"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mamahacx/hak/refs/heads/main/cute.txt"))()
 end)
 
 local player = game:GetService("Players").LocalPlayer
@@ -1297,7 +1297,7 @@ function CheckBossDimension()
 		end
 	end
 end;
-local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/CokkaHub/ui.lua"))()
+local L_33_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/mamahacx/hak/refs/heads/main/lib.txt"))()
 local L_34_ = L_33_:Window("Cokka Hub 25ms was here", Enum.KeyCode.LeftControl)
 print("|COKKA DEBUG| Anti AFK")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
